@@ -15,6 +15,9 @@ _⚠️ This work constitutes one of the tasks for the subject "Aplicaciones par
 at [UNED](https://www.uned.es/universidad/inicio/en/estudios/masteres/master-universitario-en-tecnologias-del-lenguaje.html?idContenido=1).
 Due to this, copying any of the work presented here and using it for the same subject is completely prohibited._
 
+_`v1` and `v2` versions of the dataset have not been pushed in order to save some space in GitHub. If you need them,
+contact me and I'll upload them._
+
 ## Introduction
 
 The rise of LLMs like ChatGPT, [LLaMA](https://huggingface.co/meta-llama),
