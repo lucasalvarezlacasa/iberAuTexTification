@@ -11,6 +11,10 @@ Given that much of my professional work in recent years has focused on developin
 using Large Language Models (LLMs), I found the [IberAuTexTification](https://sites.google.com/view/iberautextification)
 task particularly interesting to explore.
 
+_⚠️ This work constitutes one of the tasks for the subject "Aplicaciones para NLP" of my Másters
+at [UNED](https://www.uned.es/universidad/inicio/en/estudios/masteres/master-universitario-en-tecnologias-del-lenguaje.html?idContenido=1).
+Due to this, copying any of the work presented here and using it for the same subject is completely prohibited._
+
 ## Introduction
 
 The rise of LLMs like ChatGPT, [LLaMA](https://huggingface.co/meta-llama),
@@ -43,7 +47,8 @@ The generations are obtained using six language models:
 The scoreboard with the competition ranking can be
 found [here](https://sites.google.com/view/iberautextification/results?authuser=0).
 
-_**⚠️ IMPORTANT: due to time limitations, I've decided to focus only on the first of the subtasks (this is, MGT Detection).
+_**⚠️ IMPORTANT: due to time limitations, I've decided to focus only on the first of the subtasks (this is, MGT
+Detection).
 I consider the second subtask to be quite interesting as well, but I'd prefer to focus my time on the first one.**_
 
 ## Task
@@ -133,7 +138,7 @@ Additional considerations:
   outperform them.
 - 👎 I will define multiple dataset versions based on the representation needs of each model or
   augmentation techniques, but I will use only one cleanup version per case.
-- 👎 I would've liked to explore the zero-shot performance of reasoning models (like DeepSeek or o3-mini-high, to see 
+- 👎 I would've liked to explore the zero-shot performance of reasoning models (like DeepSeek or o3-mini-high, to see
   how they perform in this task). However, I couldn't find enough time to do this.
 
 ### Notebook Index
@@ -150,8 +155,9 @@ The table below presents the set of notebooks used in this work, along with thei
 ### Running Notebooks
 
 As I was trying some experiments, I ended up executing different notebooks on different environments:
+
 - For ML based models presented in `2_ml_baselines`, I used my local laptop.
-- For DL based models presented in `3_dl_approaches`, I used a mix between [Google Colab](https://colab.google/) 
+- For DL based models presented in `3_dl_approaches`, I used a mix between [Google Colab](https://colab.google/)
   and PyCharm remote execution pointing to a remote AWS server with GPUs.
 
 In any case, paths are configured by the `RouteResolver` class in different notebooks.
