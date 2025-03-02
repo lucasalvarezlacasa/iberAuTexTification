@@ -1,0 +1,9 @@
+# Project ignores
+.idea/
+venv/
+**/__pycache__/**
+**~
+**/.ipynb_checkpoints/**
+.vscode/
+**.egg-info/
+**-checkpoint.ipynb
